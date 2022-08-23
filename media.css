@@ -72,7 +72,9 @@ background:linear-gradient(rgba(120,220,255,0.7),rgba(255,220,220,0.9));
     height:100%;
 }
 */----about----*/
-.left
+.left,.right{
+Width:100%;
+}
 
 
 
