@@ -1,0 +1,79 @@
+@media only screen and (max-width:600px){
+  .header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('img/Pic6.jpg');
+  }
+  .header-text{
+    margin-top:100%;
+   
+  }
+  .header-text h1{
+  transform: translateY(0);
+    }
+  nav .icon{
+    display:block;
+    font-size: 50px;
+    text-decoration: none;
+    color:#fff;
+  }
+  nav ul{
+    background:#ff994f;
+    position:fixed;
+    top:0;right:-200px;
+    width:200px;height:100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li{
+    display:block;
+    margin:55px;
+  }
+  nav ul .icon{
+    position:absolute;
+    top:15px;
+    left:55px;
+    cursor: pointer;
+  }
+  .lg{
+      display: none;
+  }
+  .sm{
+      display: block;
+  }
+  .sm .card{
+      width:300px;
+      height:400px;
+  }
+  .card figure{
+  width:100%;
+      position: absolute;
+  }
+    .card .content{
+   width:100%;
+  height:0%;
+background:linear-gradient(rgba(120,220,255,0.7),rgba(255,220,220,0.9));
+  border-radius: 10px;
+  position: absolute;
+  left:0;
+  bottom:0;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding :0 40px;
+  font-size: 14px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px black;
+  transition: height 0.5s;
+}
+.card:hover .content{
+    height:100%;
+}
+*/----about----*/
+.left
+
+
+
+}
