@@ -1,7 +1,4 @@
 @media only screen and (max-width:600px){
-  .header{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('img/Pic6.jpg');
-  }
   .header-text{
     margin-top:100%;
    
