@@ -14,9 +14,9 @@ let win = window.matchMedia("(max-width: 700px"));
 //check the media qurey is true & glase
 if(win.matches){
 //I change background images with setAttribute with media qurey
-document.getElementById("header").setAttribute("style","background-image: url(" + dir + mobile[randomChoice]");");
+document.getElementById("header").setAttribute("style","background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(" + dir + mobile[randomChoice]");");
 }else{
-document.getElementById("header").setAttribute("style","background-image:url(" + dir + desktop[randomChoice]");");
+document.getElementById("header").setAttribute("style","background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(" + dir + desktop[randomChoice]");");
 }
 
 
